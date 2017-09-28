@@ -16,21 +16,16 @@
 
 一つずつ確認していきましょう。
 
-尚、サンプルプロジェクトを作ってgithubにアップしてありますのでそちらを動かしながら確認すると分かりやすいかと思います。
-[ダウンロード](https://github.com/stachibana/line-login-v2.1-example)
-
-また、[LINE Botが超便利になるLINE Loginバージョン2の解説と実装方法(Heroku+PHP)](https://qiita.com/stachibana/items/80f8daddfd98c63c7f0b)を読んでおくとLINE Loginの便利な使い道が分かっていいかと思います。
-
 ## 新しいエンドポイント
 エンドポイントが変更になっています。
 
-###旧
+### 旧
 ```shell-session
 https://access.line.me/dialog/oauth/weblogin
 https://api.line.me/v2/oauth/accessToken
 https://api.line.me/v2/oauth/revoke
 ```
-###新
+### 新
 ```shell-session
 https://acces.line.me/oauth2/v2.1/authorize
 https://api.line.me/oauth2/v2.1/token
