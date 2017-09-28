@@ -2,6 +2,8 @@
 
 事前に[LINE Devlopers](https://developers.line.me/ja/)にてLINE Loginのチャネルを作成して下さい。
 
+[公式リファレンスはこちら](https://developers.line.me/en/docs/line-login/web/integrate-line-login/)
+
 # 解説
 
 <img width="405" alt="line_login_v2.1" src="https://qiita-image-store.s3.amazonaws.com/0/164153/fd395b24-89f2-32f1-bd46-5355e6ed7afe.png">
@@ -86,8 +88,6 @@ function base64UrlDecode($data) {
 ```shell-session
 {"iss":"https://access.line.me","sub":"userIdXXXXXXXXXXXXX","aud":"1508850331","exp":1506342586,"iat":1506338986,"name":"立花","picture":""}
 ```
-
-[公式リファレンス](#)
 
 ## Loginと同時にBOTと友だちにさせるオプションの追加
 
